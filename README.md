@@ -32,3 +32,12 @@ We trained our model on a single GTX 1080 GPU on a CentOS system.
 
 # Contact
 Please do not hesitate to contact me at rxtan@bu.edu if you have any questions or problems running the code.
+
+
+# Modern notebook (PyTorch 2.x + FashionCLIP)
+
+A modernized, image-only SCE-Net implementation for pairwise fashion compatibility is provided in:
+
+- `SCE_Net_Fashion_Compatibility.ipynb`
+
+The notebook explains how to map pair labels (`good`/`bad`) into triplets for training, implements condition masks + condition-weight branch from the paper, and evaluates pairwise AUC/AP.
