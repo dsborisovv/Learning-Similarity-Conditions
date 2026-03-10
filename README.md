@@ -41,3 +41,12 @@ A modernized, image-only SCE-Net implementation for pairwise fashion compatibili
 - `SCE_Net_Fashion_Compatibility.ipynb`
 
 The notebook explains how to map pair labels (`good`/`bad`) into triplets for training, implements condition masks + condition-weight branch from the paper, and evaluates pairwise AUC/AP.
+
+
+# Detailed notebook: train/val triplets + test pairs
+
+If your data is already prepared as train/val triplets and test pairs (good/bad), use:
+
+- `SCE_Net_TripletTrain_PairTest_Detailed.ipynb`
+
+This notebook provides a line-by-line implementation and explanation of a modern image-only SCE-Net pipeline without explicit condition labels.
